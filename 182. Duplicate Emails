@@ -1,4 +1,3 @@
-
 Select email 
 from Person
 Group by email
