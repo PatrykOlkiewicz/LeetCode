@@ -1,0 +1,7 @@
+
+Select email 
+from Person
+Group by email
+HAVING (COUNT(Email)>1)
+
+
