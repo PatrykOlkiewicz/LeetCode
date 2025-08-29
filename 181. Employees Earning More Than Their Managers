@@ -1,0 +1,7 @@
+SELECT a.name as Employee
+FROM Employee a
+JOIN Employee b
+ON a.managerId = b.id
+Where a.salary > b.salary 
+
+GROUP BY a.id
